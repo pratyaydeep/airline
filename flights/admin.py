@@ -9,7 +9,7 @@ class FlightAdmin(admin.ModelAdmin):
 
 
 class PassengerAdmin(admin.ModelAdmin):
-    fliter_horizontal = ("flights",)
+    filter_horizontal = ("flights",)
 
 
 admin.site.register(Airport)
